@@ -31,9 +31,9 @@ const Header = () => {
           <img
             src="http://www.pngimagesfree.com/LOGO/T/Tata-CLiQ/Tata-cliq-logo-Vector.png"
             alt="Tailblocks Logo"
-            class="w-10 h-10  p-0"
+            class="w-100% h-10  p-0"
           />
-          <span className="ml-3 text-xl">CLIQ MART</span>
+          {/* <span className="ml-3 text-xl">CLIQ MART</span> */}
         </Link>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           {navigations.map((navigation) => {
